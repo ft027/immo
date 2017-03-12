@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/quick/step1', 'QuickController@index');
+
 Route::get('/logout', [ 'uses' => 'Auth\LogoutController@logout', 'as' => 'logout' ]);

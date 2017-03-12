@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-left"><div class="logo"> <img src="{{ asset('/images/hw.png') }}"></div></a>
+                <a href="/" class="navbar-left"><div class="logo"> <div class="img-logo"> <img img-logo src="{{ asset('/images/hw.png') }}"></div></div></a>
                 <a id="brand" class="navbar-brand" href="/"> Homewise</a>
             </div>
 
